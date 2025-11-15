@@ -6,10 +6,12 @@ public class PlayerBehaviour : MonoBehaviour
     [SerializeField] private float jumpForce = 3f;
 
     private Rigidbody2D rb;
+    private IsGroundedChecker isGroundedChecker;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        isGroundedChecker = GetComponent<IsGroundedChecker>();
     }
 
     private void Start()
@@ -25,6 +27,7 @@ public class PlayerBehaviour : MonoBehaviour
 
     private void HandleJump()
     {
+        if (!isGroundedChecker.IsGrounded()) return;
         rb.linearVelocity += Vector2.up * jumpForce;
     }
 }
