@@ -22,7 +22,8 @@ public class PlayerBehaviour : MonoBehaviour
     private void Update()
     {
         float moveDirection = GameManager.Instance.inputManager.Movement;
-        transform.Translate(moveDirection * Time.deltaTime * moveSpeed, 0, 0);
+        Vector2 vectorMoveDirection = new Vector2(moveDirection * moveSpeed, rb.linearVelocity.y);
+        rb.linearVelocity = vectorMoveDirection;
     }
 
     private void HandleJump()
