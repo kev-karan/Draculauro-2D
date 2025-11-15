@@ -2,15 +2,17 @@ using UnityEngine;
 
 public class PlayerBehaviour : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    private InputManager inputManager;
+    [SerializeField] private float moveSpeed = 5f;
     void Start()
     {
-        
+        inputManager = new InputManager();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        float moveDirection = inputManager.Movement * Time.deltaTime * moveSpeed;
+        transform.Translate(moveDirection, 0, 0);
     }
 }
