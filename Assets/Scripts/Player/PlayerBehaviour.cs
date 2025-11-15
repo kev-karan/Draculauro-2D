@@ -3,6 +3,14 @@ using UnityEngine;
 public class PlayerBehaviour : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private float jumpForce = 3f;
+
+    private Rigidbody2D rb;
+
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
 
     private void Start()
     {
@@ -17,6 +25,6 @@ public class PlayerBehaviour : MonoBehaviour
 
     private void HandleJump()
     {
-        Debug.Log("Player Jumped!");
+        rb.linearVelocity += Vector2.up * jumpForce;
     }
 }
