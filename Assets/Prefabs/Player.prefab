@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3964484225715805526}
   - component: {fileID: 7036895255845406554}
   - component: {fileID: 3184575351519108629}
-  - component: {fileID: 8817045404453756626}
+  - component: {fileID: 121662101848780507}
   - component: {fileID: 573446468187856411}
   - component: {fileID: 6003047197238578539}
   m_Layer: 0
@@ -122,8 +122,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &8817045404453756626
-BoxCollider2D:
+--- !u!70 &121662101848780507
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -156,18 +156,9 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 24.217178, y: 29.29}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 24.217178, y: 29.29}
-  m_EdgeRadius: 0
+  m_Offset: {x: -0.079842314, y: -10.749482}
+  m_Size: {x: 15.0000105, y: 7.798067}
+  m_Direction: 1
 --- !u!114 &573446468187856411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -180,8 +171,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d12bb4b5ca8681b4dbfd0c2ce8ea109f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerBehaviour
-  moveSpeed: 10
-  jumpForce: 8
+  moveSpeed: 5
+  jumpForce: 7
 --- !u!114 &6003047197238578539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,7 +186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IsGroundedChecker
   checkerPosition: {fileID: 5556258087848178583}
-  checkerSize: {x: 1.2, y: 0.15}
+  checkerSize: {x: 0.75, y: 0.1}
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
