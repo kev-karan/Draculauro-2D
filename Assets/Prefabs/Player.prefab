@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 4511225183052939822}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.2731, y: -2.6449, z: 0}
+  m_LocalPosition: {x: -8, y: -2.7, z: 0}
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -156,8 +156,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.079842314, y: -10.749482}
-  m_Size: {x: 15.0000105, y: 7.798067}
+  m_Offset: {x: -0.07984237, y: -11.26213}
+  m_Size: {x: 15.000013, y: 6.772776}
   m_Direction: 1
 --- !u!114 &573446468187856411
 MonoBehaviour:
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerBehaviour
   moveSpeed: 5
-  jumpForce: 7
+  jumpForce: 6.5
 --- !u!114 &6003047197238578539
 MonoBehaviour:
   m_ObjectHideFlags: 0
