@@ -7,21 +7,23 @@ public class PlayerBehaviour : MonoBehaviour
 
     private Rigidbody2D rb;
     private IsGroundedChecker isGroundedChecker;
+    private InputManager input;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         isGroundedChecker = GetComponent<IsGroundedChecker>();
+        input = GetComponent<InputManager>();
     }
 
     private void Start()
     {
-        GameManager.Instance.inputManager.OnJump += HandleJump;
+        input.OnJump += HandleJump;
     }
 
     private void Update()
     {
-        float moveDirection = GameManager.Instance.inputManager.Movement;
+        float moveDirection = input.Movement;
         Vector2 vectorMoveDirection = new Vector2(moveDirection * moveSpeed, rb.linearVelocity.y);
         rb.linearVelocity = vectorMoveDirection;
     }
