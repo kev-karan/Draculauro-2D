@@ -9,9 +9,11 @@ public class GameManager : MonoBehaviour
     private int totalBlood;
     private int bloodLeftToCollect;
 
+    [SerializeField] private FinishPoint door;
+
     private void Awake()
     {
-        if (Instance != null) Destroy(this.gameObject);
+        if (Instance != null) Destroy(gameObject);
         Instance = this;
 
         totalBlood = FindObjectsByType<CollectableBlood>(FindObjectsSortMode.None).Length;
@@ -28,7 +30,10 @@ public class GameManager : MonoBehaviour
     {
         if (bloodLeftToCollect <= 0)
         {
-            Debug.Log("All blood collected!");
+            if (AllBloodCollected)
+            {
+                door.UnlockDoor();
+            }
         }
     }
 }

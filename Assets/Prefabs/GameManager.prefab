@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9333448a6dcbaf04faffba2dd6a290b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  door: {fileID: 7436785693030595112, guid: 6e649a0f649fab9488f2004a4478e313, type: 3}
 --- !u!114 &7995877444888601678
 MonoBehaviour:
   m_ObjectHideFlags: 0
