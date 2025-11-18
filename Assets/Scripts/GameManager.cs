@@ -3,13 +3,14 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
+    [SerializeField] private FinishPoint door;
 
     public bool AllBloodCollected => bloodLeftToCollect <= 0;
-
+    public UIManager UIManager;
     private int totalBlood;
     private int bloodLeftToCollect;
+    private int bloodCollected = 0;
 
-    [SerializeField] private FinishPoint door;
 
     private void Awake()
     {
@@ -18,11 +19,15 @@ public class GameManager : MonoBehaviour
 
         totalBlood = FindObjectsByType<CollectableBlood>(FindObjectsSortMode.None).Length;
         bloodLeftToCollect = totalBlood;
+
+        UIManager.UpdateBloodCountText(bloodCollected, totalBlood);
     }
 
     public void UpdateBloodLeft()
     {
         bloodLeftToCollect--;
+        bloodCollected++;
+        UIManager.UpdateBloodCountText(bloodCollected, totalBlood);
         CheckAllBloodCollected();
     }
 
