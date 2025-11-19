@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 51847cb5e97f610439c9db7dc196a1b1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5056292070922867332
+    second: "DracoT\xEDtulo_0"
+  - first:
+      213: -5748587277791499408
+    second: "DracoT\xEDtulo_1"
+  - first:
+      213: -2588477129417137811
+    second: "DracoT\xEDtulo_2"
+  - first:
+      213: -6696461975473348271
+    second: "DracoT\xEDtulo_3"
+  - first:
+      213: -2289066559647189556
+    second: "DracoT\xEDtulo_4"
+  - first:
+      213: 2078256750551276808
+    second: "DracoT\xEDtulo_5"
+  - first:
+      213: 8418687013467153066
+    second: "DracoT\xEDtulo_6"
+  - first:
+      213: 8758330348381000376
+    second: "DracoT\xEDtulo_7"
+  - first:
+      213: 7870041763596177454
+    second: "DracoT\xEDtulo_8"
+  - first:
+      213: 9205040480583317898
+    second: "DracoT\xEDtulo_9"
+  - first:
+      213: 6355414221753368456
+    second: "DracoT\xEDtulo_10"
+  - first:
+      213: 5907583452017506321
+    second: "DracoT\xEDtulo_11"
+  - first:
+      213: 1921969037636969443
+    second: "DracoT\xEDtulo_12"
+  - first:
+      213: -2355539130568195763
+    second: "DracoT\xEDtulo_13"
+  - first:
+      213: 2719049279354651511
+    second: "DracoT\xEDtulo_14"
+  - first:
+      213: -3823558510684129989
+    second: "DracoT\xEDtulo_15"
+  - first:
+      213: -9009942483457397755
+    second: "DracoT\xEDtulo_16"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "DracoT\xEDtulo_0"
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 757
+        width: 238
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7da400a62174d9b0800000000000000
+      internalID: -5056292070922867332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DracoT\xEDtulo_1"
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 756
+        width: 117
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b68e2045ae830b0800000000000000
+      internalID: -5748587277791499408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DracoT\xEDtulo_2"
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 753
+        width: 115
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d616edfd3c1e31cd0800000000000000
+      internalID: -2588477129417137811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DracoT\xEDtulo_3"
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 757
+        width: 118
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151200c00536113a0800000000000000
+      internalID: -6696461975473348271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DracoT\xEDtulo_4"
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 757
+        width: 124
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5f00d871a9b30e0800000000000000
+      internalID: -2289066559647189556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DracoT\xEDtulo_5"
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 757
+        width: 59
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d9aa8e08377dc10800000000000000
+      internalID: 2078256750551276808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DracoT\xEDtulo_6"
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 753
+        width: 116
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa267e01c3f25d470800000000000000
+      internalID: 8418687013467153066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DracoT\xEDtulo_7"
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 757
+        width: 124
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2d5c85c07db8970800000000000000
+      internalID: 8758330348381000376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DracoT\xEDtulo_8"
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 756
+        width: 116
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2093a66941083d60800000000000000
+      internalID: 7870041763596177454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DracoT\xEDtulo_9"
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 756
+        width: 116
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a897244fb8fdebf70800000000000000
+      internalID: 9205040480583317898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DracoT\xEDtulo_10"
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 467
+        width: 633
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f3310ff87f23850800000000000000
+      internalID: 6355414221753368456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DracoT\xEDtulo_11"
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 523
+        width: 102
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 118ba7299d3fbf150800000000000000
+      internalID: 5907583452017506321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DracoT\xEDtulo_12"
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 656
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3a6ad18a43caa10800000000000000
+      internalID: 1921969037636969443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DracoT\xEDtulo_13"
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 523
+        width: 102
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4143f314a17f4fd0800000000000000
+      internalID: -2355539130568195763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DracoT\xEDtulo_14"
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 495
+        width: 106
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77347b6d9e00cb520800000000000000
+      internalID: 2719049279354651511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DracoT\xEDtulo_15"
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 523
+        width: 102
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3530c8eacdffeac0800000000000000
+      internalID: -3823558510684129989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DracoT\xEDtulo_16"
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 495
+        width: 70
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c22da4c0146f280800000000000000
+      internalID: -9009942483457397755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "DracoT\xEDtulo_0": -5056292070922867332
+      "DracoT\xEDtulo_1": -5748587277791499408
+      "DracoT\xEDtulo_10": 6355414221753368456
+      "DracoT\xEDtulo_11": 5907583452017506321
+      "DracoT\xEDtulo_12": 1921969037636969443
+      "DracoT\xEDtulo_13": -2355539130568195763
+      "DracoT\xEDtulo_14": 2719049279354651511
+      "DracoT\xEDtulo_15": -3823558510684129989
+      "DracoT\xEDtulo_16": -9009942483457397755
+      "DracoT\xEDtulo_2": -2588477129417137811
+      "DracoT\xEDtulo_3": -6696461975473348271
+      "DracoT\xEDtulo_4": -2289066559647189556
+      "DracoT\xEDtulo_5": 2078256750551276808
+      "DracoT\xEDtulo_6": 8418687013467153066
+      "DracoT\xEDtulo_7": 8758330348381000376
+      "DracoT\xEDtulo_8": 7870041763596177454
+      "DracoT\xEDtulo_9": 9205040480583317898
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
