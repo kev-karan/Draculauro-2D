@@ -58,4 +58,4 @@ Para avaliar o projeto localmente:
 ## 👨‍💻 Créditos
 
 Desenvolvido por **Kelwin Karan** para o processo seletivo da FORJA Game Studio (CESAR School).  
-Artes feitas por [**Ana Flavia**](https://www.instagram.com/anacwr/).
+Artes feitas por [**Ana Flavia**](https://www.instagram.com/anacarvalhorf/).
